@@ -4,14 +4,15 @@ pueda llevar a cabo su funcion correctamente, primero el proyecto trabaja con Ma
 para que funcione correctamente necesitamos tener el siguiente codigo en el archivo pom.xml
 
 
-(''' <dependencies> ''')
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.10.0</version>
-            <scope>test</scope>
-        </dependency>
+<dependencies>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter</artifactId>
+        <version>5.10.0</version>
+        <scope>test</scope>
+    </dependency>
 </dependencies>
+
 
 
 Esto hay que tenerlo en el pom.xml, es el archivo de configuración de Maven utilizado para definir 
