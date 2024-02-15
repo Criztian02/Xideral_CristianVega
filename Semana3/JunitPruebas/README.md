@@ -4,7 +4,7 @@ pueda llevar a cabo su funcion correctamente, primero el proyecto trabaja con Ma
 para que funcione correctamente necesitamos tener el siguiente codigo en el archivo pom.xml
 
 
-''' <dependencies> '''
+(''' <dependencies> ''')
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
